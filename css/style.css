@@ -3,4 +3,31 @@ body {
   padding: 0;
   font: 14px OpenSans, sans-serif;
   line-height: 1;
+  background: #d2d2d2; /* color bg */
+  min-height: 100%; /* test */
 }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red; /* remove */
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* your code */
